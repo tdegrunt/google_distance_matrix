@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activesupport", [">= 4.2.0"]
   spec.add_dependency "activemodel", [">= 4.2.0"]
-  #spec.add_dependency "google_business_api_url_signer", "~> 0.1.1"
+  spec.add_dependency "google_business_api_url_signer"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rspec", "~> 3.0.0"
